@@ -1,0 +1,13 @@
+DESCRIPTION :
+	Ludo is a two player board game where each player has a chance to roll the dice. When a player rolls a dice, a random number is generated and displayed in the alert in message.
+ Corresponding to the random number generated, the player makes a move.  When player1 makes a move and player2 already exists in the particular cell, then player1 has a chance to kill player2,
+now player2 has to start from his initial position and vice-versa if player2 has a chance to kill player1. The players roll their dice alternatively. The player who reaches the destination first wins the
+game and the game ends.
+
+
+
+Instructions to play the game:
+1)Click on the button "Player1 roll" during player1 turn in order to move player1.
+2)Click on button "Player2 roll" in order to make player2 move.
+3)Start from player1.
+4)Once, a player has reached the destination(green colour box), the game ends and the player who reaches the destination first wins the game

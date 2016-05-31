@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>LUDO</title>
+	<style>
+		#tab {
+			border-collapse: collapse;
+			background-color: purple;
+			}
+		#img1 {
+			position: absolute;
+			top: 9px;
+			left:618px;	
+		}
+		#img2{
+			position: absolute;
+			top: 489px;
+			left: 618px;
+		}
+		
+		#butt1, #butt2{
+		 border-radius: 50px 30px 50px 30px;
+		 background-color: gold;
+		 color: black;
+		 font-size: 20px;
+		 
+		}
+		
+		
+	</style>
+	<script src="ludo.js"></script>
+</head>
+<body style = "background-color: black">
+<center>
+<table id = "tab" border = "1" width = "600" height = "600">
+<tr><td></td><td></td><td style = "background-color: yellow"></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style = "background-color: yellow"></td><td></td><td style = "background-color: green"></td><td></td><td style = "background-color: yellow"></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td style = "background-color: yellow"></td><td></td><td></td></tr>
+</table>
+<br>
+<input type = "button" id = "butt1" value = "Player1 roll" onclick = "movep1()">
+<input type = "button" id = "butt2" value = "Player2 roll" onclick = "movep2()">
+<img id = "img1" src = "pawn1.jpg" width = "120px" height = "120px" alt = "NO image"/>
+<img id = "img2" src = "pawn2.jpg" width = "120px" height = "120px" alt = "NO image"/>
+</center>
+</body>
+</html>
